@@ -1,0 +1,16 @@
+    0 vmulss
+      3 vaddss
+      6 vfmadd213ss
+      9 vbroadcastss
+     12 vmovss
+      8 addq
+      2 vpbroadcastq
+     32 movq
+    0 vmulps
+     12 vaddps
+     18 vfmadd231ps
+    0 vfnmadd231ps
+     11 vmovups
+     17 vmovaps
+    0 vrsqrt28ps
+      6 vrsqrt28pd

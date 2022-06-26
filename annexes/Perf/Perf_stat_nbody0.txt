@@ -1,0 +1,16 @@
+ Performance counter stats for 'numactl --cpunodebind=1 --membind=1 ./nbody0.i':
+
+          7,263.85 msec task-clock                #    0.986 CPUs utilized          
+                22      context-switches          #    0.003 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,411      page-faults               #    0.332 K/sec                  
+    10,842,089,950      cycles                    #    1.493 GHz                      (49.99%)
+     6,767,486,483      instructions              #    0.62  insn per cycle           (75.02%)
+        93,452,153      branches                  #   12.865 M/sec                    (75.01%)
+           718,075      branch-misses             #    0.77% of all branches          (75.00%)
+
+       7.363959394 seconds time elapsed
+
+       7.229776000 seconds user
+       0.035988000 seconds sys
+
